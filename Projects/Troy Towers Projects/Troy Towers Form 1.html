@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <style>
+    .boxed {
+      border: 1px solid blue
+    }
+
+    .boxy {
+      .border: 1px solid green
+    }
+
+    .section {
+      .border: 1px solid black
+    }
+  </style>
+  <!--Recreate Nav Bar-->
+<a href="https://www.troytowersnj.com/"><H3>Troy Towers Home</H3></a>
+<a href="https://www.google.com/search?q=troy+towers+bloomfield+nj&rlz=1C1CHBF_enUS839US840&oq=troy+towers+bloomfield+nj&aqs=chrome..69i57j46i175i199i512j0i22i30j69i60l2.7864j1j4&sourceid=chrome&ie=UTF-8#lrd=0x89c25521600c1975:0x4058d069ff64c0b1,1,,,"><h3>Reviews</h3></a>
+<a href="https://www.google.com/maps/uv?pb=!1s0x89c25521600c1975%3A0x4058d069ff64c0b1!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMjGc3CZDXl19bDFtrbLu-mU6vS1lCJO4JcLOI6%3Dw288-h192-k-no!5stroy%20towers%20bloomfield%20nj%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipMjGc3CZDXl19bDFtrbLu-mU6vS1lCJO4JcLOI6&hl=en&sa=X&ved=2ahUKEwiPyJjup4f2AhVjk-AKHQzMCBUQoip6BAg0EAM"><h3>Images</h3></a>
+  <img src="https://patch.com/img/cdn/users/86541/2011/08/raw/a81c5c1b79169f9cd80a6494e0187787.jpg" alt="The two Troy Towers" width="600" height="400">
+  <h2>Troy Towers New/Existing Resident Registration
+  </h2>
+  <p> All information collected will be used for updating existing or create new records for residents. Information provided will be used for correspondence.</p>
+  <br>
+  <p>Any data collected will not be shared with any third party services and is meant for use by Ayson Realty only</p>
+</header>
+<form id="Tenant Registration">
+
+  <body>
+    <section class="section">
+      <div class="boxed">
+        <label for="email"> Email*</label>
+        <br>
+        <input type="email" id="email" name="apt" placeholder="myname@myemail.com" required>
+      </div>
+      <br>
+      <div class="boxed">
+        <label for="name"> Resident full name*</label>
+        <br>
+        <small>First Name & last Name</small>
+        <br>
+        <input type="text" id="name" name="apt" required placeholder="Firstname Lastname">
+      </div>
+      <br>
+      <div class="boxed">
+        <label for="phone">Phone Number*</label>
+        <br>
+        <small> Format: 123-456-7890</small>
+        <br>
+        <input type="tel" id="phone" name="apt" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4} " required>
+      </div>
+      <br>
+      <div class="boxed">
+        <p>Select your building</p>
+        <input type="radio" id="building a" name="apt" value="Building A">
+        <label for="building a">Building A</label>
+        <input type="radio" id="building b" name="apt" value="Building B">
+        <label for="building b">Building B</label>
+      </div>
+      <br>
+      <div class="boxed">
+        <label for="apt #">Apartment Number</label>
+        <br>
+        <input type="number" id="apt #" name="apt" min="101" required>
+      </div>
+      <br>
+      <div class="boxed">
+        <label for="#residents">Select the number of residents*</label>
+        <br>
+        <input type="radio" id="1-res" name="apt value=" 1" checked>
+        <label for="1-res">1</label>
+        <input type="radio" id="2-res" name="apt value=" 2">
+        <label for="2-res">2</label>
+        <input type="radio" id="3-res" name="apt value=" 3">
+        <label for="3-res">3</label>
+        <input type="radio" id="4-res" name="apt value=" 4">
+        <label for="4-res">4</label>
+        <input type="radio" id="5-res" name="apt value=" 5">
+        <label for="5-res">5</label>
+        <input type="radio" id="6-res" name="apt value=" 6">
+        <label for="6-res">6</label>
+      </div>
+      <br>
+      <div class="boxed">
+        <label for="ec-name">Emergency Contact Name</label>
+        <br>
+        <input type="text" id="ec-name" name="ec-info">
+      </div>
+      <br>
+      <div class=boxed>
+        <label for="ec-list">Emergency Contact Relationship</label>
+        <br>
+        <select id="ec-list" name="ec-info">
+          <option value="Parent">Parent</option>
+          <option value="Sibling"> Sibling</option>
+          <option value="Spouse">Spouse</option>
+          <option value="Other">Other </option>
+        </select>
+      </div>
+      <br>
+      <div class="boxed" <label for="ec-contact">Emergency Contact Phone Number<label>
+          <br>
+          <input type="tel" id="ec-contact" name="ec-info" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+      </div>
+    </section>
+    <div>
+      <br>
+      <br>
+      <section>
+        <h2>Pets</h2>
+        <img src="https://c.tenor.com/qOxjGKeqCO4AAAAC/dog-angry.gif" alt="Fuck you dog" height="400" width="600">
+    </div>
+    <br>
+    <div class="boxed">
+      <p>Do you have a pet?</p>
+      <br>
+      <label for="y-pets">Yes</label>
+      <input type="radio" id="y-pets" name="pets" value="Yes-Pets">
+      <label for="n-pets">No</label>
+      <input type="radio" id="n-pets" name="pets" value="no-pets" checked>
+    </div>
+    <br>
+    <div class="boxed">
+      <p>Number of pet(s), if any</p>
+      <label for="0-pets">0</label>
+      <input type="radio" id="0-pets" name="#-pets" value="0" checked>
+      <label for="1-pets">1</label>
+      <input type="radio" id="1-pets" name="#-pets" value="1">
+      <label for="2-pets">2</label>
+      <input type="radio" id="2-pets" name="#-pets" value="2">
+    </div>
+    <br>
+    <div class="boxed">
+      <p>What type of pet(s)?</p>
+      <br>
+      <label for"na-pet">No Pets</label>
+      <input type="checkbox" id="na-pet" name="type-pets" value="no-pet" checked>
+      <label for="fish">Fish</label>
+      <input type="checkbox" id="fish" name="species" value="Fish">
+      <label for="bird">Bird</label>
+      <input type="checkbox" id="bird" name="species" value="Bird">
+      <label for="cat" id="cat" name="pets">Cat</label>
+      <input type="checkbox" id="cat" name="species" value="Cat">
+      <label for="dog" id="dog" name="dog">Dog</label>
+      <input type="checkbox" id="dog" name="species" value="Dog">
+    </div>
+    <br>
+    <div class="boxed">
+      <p>Is your pet:</p>
+      <label for="no-pet">I dont have a pet</label>
+      <input type="radio" id="no-pet" name="type-pets" value="no-pet" checked>
+      <label for="esa">Emotional Service Animal(ESA)</label>
+      <input type="radio" id="esa" name="type-pets" value="ESA">
+      <label for="sa">Service Animal (SA)</label>
+      <input type="radio" id="sa" name="type-pets" value="sa">
+      <label for="normal-pet">Neither</label>
+      <input type="radio" id="no-pets" name="type-pets" value="normal-pet">
+    </div>
+    <br>
+    <div class="boxed">
+      <p>Pet estimated weight (in lbs)</p>
+      <small>Please put NA if this question does not apply to you</small>
+      <br>
+      <input type="text" required placeholder="ex:25">
+    </div>
+    <br>
+    <div class="boxed">
+      <p>Help us easily identify your dog, by providing a picture of your animal here</p>
+      <label for="photo-upload"><em>Upload</em> a picture here</label>
+      <input type="file" id="photo-upload" name="pets" accept="image/jpeg image/png">
+    </div>
+    </section>
+    <section>
+      <h2> Vehicles</h2>
+      <br>
+      <div class="boxed">
+        <p>Number of vehicle(s) parked on premises
+        <p>
+          <br>
+          <label for="0-carss">0</label>
+          <input type="radio" id="0-cars" name="#-cars" value="0-cars">
+          <label for="1-cars">1</label>
+          <input type="radio" id="1-cars" name="#-cars" value="1-cars" checked>
+          <label for="2-cars">2</label>
+          <input type="radio" id="2-cars" name="#-cars" value="2-cars">
+      </div>
+      <br>
+      <div class="boxed">
+        <h3>Vehicle #1</h3>
+        <label for="#1-sticker">Sticker Number</label>
+        <br>
+        <input type="text" id="#1-sticker" name"#1-vehicle" placeholder="Parking Sticker">
+        <br>
+        <label for="#1-plate">License Plate</label>
+        <br>
+        <input type="text" id="#1-plate" name="#1-vehicle" minlength="3" maxlength="7">
+        <br>
+        <label for="#1-state">State</label>
+        <br>
+        <select id="#1-state" name="#1-vehicle">
+          <option value="AL">Alabama</option>
+          <option value="AK">Alaska</option>
+          <option value="AZ">Arizona</option>
+          <option value="AR">Arkansas</option>
+          <option value="CA">California</option>
+          <option value="CO">Colorado</option>
+          <option value="CT">Connecticut</option>
+          <option value="DE">Delaware</option>
+          <option value="DC">District Of Columbia</option>
+          <option value="FL">Florida</option>
+          <option value="GA">Georgia</option>
+          <option value="HI">Hawaii</option>
+          <option value="ID">Idaho</option>
+          <option value="IL">Illinois</option>
+          <option value="IN">Indiana</option>
+          <option value="IA">Iowa</option>
+          <option value="KS">Kansas</option>
+          <option value="KY">Kentucky</option>
+          <option value="LA">Louisiana</option>
+          <option value="ME">Maine</option>
+          <option value="MD">Maryland</option>
+          <option value="MA">Massachusetts</option>
+          <option value="MI">Michigan</option>
+          <option value="MN">Minnesota</option>
+          <option value="MS">Mississippi</option>
+          <option value="MO">Missouri</option>
+          <option value="MT">Montana</option>
+          <option value="NE">Nebraska</option>
+          <option value="NV">Nevada</option>
+          <option value="NH">New Hampshire</option>
+          <option value="NJ">New Jersey</option>
+          <option value="NM">New Mexico</option>
+          <option value="NY">New York</option>
+          <option value="NC">North Carolina</option>
+          <option value="ND">North Dakota</option>
+          <option value="OH">Ohio</option>
+          <option value="OK">Oklahoma</option>
+          <option value="OR">Oregon</option>
+          <option value="PA">Pennsylvania</option>
+          <option value="RI">Rhode Island</option>
+          <option value="SC">South Carolina</option>
+          <option value="SD">South Dakota</option>
+          <option value="TN">Tennessee</option>
+          <option value="TX">Texas</option>
+          <option value="UT">Utah</option>
+          <option value="VT">Vermont</option>
+          <option value="VA">Virginia</option>
+          <option value="WA">Washington</option>
+          <option value="WV">West Virginia</option>
+          <option value="WI">Wisconsin</option>
+          <option value="WY">Wyoming</option>
+        </select>
+        <br>
+        <label for="#1-make">Manufacturer</label>
+        <br>
+        <select data-placeholder="Make" style="width:115px;" tabindex="2" id="#1-make" name="#1-vehicle">
+          <option value=""></option>
+          <option value="ACURA">ACURA</option>
+          <option value="ASTON MARTIN">ASTON MARTIN</option>
+          <option value="AUDI">AUDI</option>
+          <option value="BENTLEY">BENTLEY</option>
+          <option value="BMW">BMW</option>
+          <option value="BUICK">BUICK</option>
+          <option value="CADILLAC">CADILLAC</option>
+          <option value="CHEVROLET">CHEVROLET</option>
+          <option value="CHRYSLER">CHRYSLER</option>
+          <option value="DODGE">DODGE</option>
+          <option value="FERRARI">FERRARI</option>
+          <option value="FORD">FORD</option>
+          <option value="GMC">GMC</option>
+          <option value="HONDA">HONDA</option>
+          <option value="HUMMER">HUMMER</option>
+          <option value="HYUNDAI">HYUNDAI</option>
+          <option value="INFINITI">INFINITI</option>
+          <option value="ISUZU">ISUZU</option>
+          <option value="JAGUAR">JAGUAR</option>
+          <option value="JEEP">JEEP</option>
+          <option value="KIA">KIA</option>
+          <option value="LAMBORGHINI">LAMBORGHINI</option>
+          <option value="LAND ROVER">LAND ROVER</option>
+          <option value="LEXUS">LEXUS</option>
+          <option value="LINCOLN">LINCOLN</option>
+          <option value="LOTUS">LOTUS</option>
+          <option value="MASERATI">MASERATI</option>
+          <option value="MAYBACH">MAYBACH</option>
+          <option value="MAZDA">MAZDA</option>
+          <option value="MERCEDES-BENZ">MERCEDES-BENZ</option>
+          <option value="MERCURY">MERCURY</option>
+          <option value="MINI">MINI</option>
+          <option value="MITSUBISHI">MITSUBISHI</option>
+          <option value="NISSAN">NISSAN</option>
+          <option value="PONTIAC">PONTIAC</option>
+          <option value="PORSCHE">PORSCHE</option>
+          <option value="ROLLS-ROYCE">ROLLS-ROYCE</option>
+          <option value="SAAB">SAAB</option>
+          <option value="SATURN">SATURN</option>
+          <option value="SUBARU">SUBARU</option>
+          <option value="SUZUKI">SUZUKI</option>
+          <option value="TOYOTA">TOYOTA</option>
+          <option value="VOLKSWAGEN">VOLKSWAGEN</option>
+          <option value="VOLVO">VOLVO</option>
+        </select>
+        <br>
+        <label for="#1-model">Model</label>
+        <br>
+        <input type="text" id="#1-model" name="#1-Vehicle">
+        <br>
+        <label for="#1-year">Year</label>
+        <br>
+        <input list="#1-10yrs" id="#1-year" name="#1-vehicle">
+        <datalist id="#1-10yrs">
+          <option value="1980">
+          <option value="1981">
+          <option value="1982">
+          <option value="1983">
+          <option value="1984">
+          <option value="1985">
+          <option value="1986">
+          <option value="1987">
+          <option value="1988">
+          <option value="1989">
+          <option value="1990">
+        </datalist>
+        <br>
+        <label for="#1-colorlist">Color</label>
+        <br>
+        <input list="#1-color" id="#1-colorlist" name="#1-vehicle">
+        <datalist id="#1-color">
+          <option value="Black">
+          <option value="Red">
+          <option value="White">
+          <option value="Gray">
+          <option value="Green">
+        </datalist>
+      </div>
+      <br>
+      <br>
+      <div class="boxed">
+        <h3>Vehicle #2</h3>
+        <label for="#2-sticker">Sticker Number</label>
+        <br>
+        <input type="text" id="#2-sticker" name"#1-vehicle" placeholder="Parking Sticker">
+        <br>
+        <label for="#2-plate">License Plate</label>
+        <br>
+        <input type="text" id="#2-plate" name="#1-vehicle" minlength="3" maxlength="7">
+        <br>
+        <label for="#2-state">State</label>
+        <br>
+        <select id="#2-state" name="#2-vehicle">
+          <option value="AL">Alabama</option>
+          <option value="AK">Alaska</option>
+          <option value="AZ">Arizona</option>
+          <option value="AR">Arkansas</option>
+          <option value="CA">California</option>
+          <option value="CO">Colorado</option>
+          <option value="CT">Connecticut</option>
+          <option value="DE">Delaware</option>
+          <option value="DC">District Of Columbia</option>
+          <option value="FL">Florida</option>
+          <option value="GA">Georgia</option>
+          <option value="HI">Hawaii</option>
+          <option value="ID">Idaho</option>
+          <option value="IL">Illinois</option>
+          <option value="IN">Indiana</option>
+          <option value="IA">Iowa</option>
+          <option value="KS">Kansas</option>
+          <option value="KY">Kentucky</option>
+          <option value="LA">Louisiana</option>
+          <option value="ME">Maine</option>
+          <option value="MD">Maryland</option>
+          <option value="MA">Massachusetts</option>
+          <option value="MI">Michigan</option>
+          <option value="MN">Minnesota</option>
+          <option value="MS">Mississippi</option>
+          <option value="MO">Missouri</option>
+          <option value="MT">Montana</option>
+          <option value="NE">Nebraska</option>
+          <option value="NV">Nevada</option>
+          <option value="NH">New Hampshire</option>
+          <option value="NJ">New Jersey</option>
+          <option value="NM">New Mexico</option>
+          <option value="NY">New York</option>
+          <option value="NC">North Carolina</option>
+          <option value="ND">North Dakota</option>
+          <option value="OH">Ohio</option>
+          <option value="OK">Oklahoma</option>
+          <option value="OR">Oregon</option>
+          <option value="PA">Pennsylvania</option>
+          <option value="RI">Rhode Island</option>
+          <option value="SC">South Carolina</option>
+          <option value="SD">South Dakota</option>
+          <option value="TN">Tennessee</option>
+          <option value="TX">Texas</option>
+          <option value="UT">Utah</option>
+          <option value="VT">Vermont</option>
+          <option value="VA">Virginia</option>
+          <option value="WA">Washington</option>
+          <option value="WV">West Virginia</option>
+          <option value="WI">Wisconsin</option>
+          <option value="WY">Wyoming</option>
+        </select>
+        <br>
+        <label for="#2-make">Manufacturer</label>
+        <br>
+        <select data-placeholder="Make" style="width:115px;" tabindex="2" id="#2-make" name="#2-vehicle">
+          <option value=""></option>
+          <option value="ACURA">ACURA</option>
+          <option value="ASTON MARTIN">ASTON MARTIN</option>
+          <option value="AUDI">AUDI</option>
+          <option value="BENTLEY">BENTLEY</option>
+          <option value="BMW">BMW</option>
+          <option value="BUICK">BUICK</option>
+          <option value="CADILLAC">CADILLAC</option>
+          <option value="CHEVROLET">CHEVROLET</option>
+          <option value="CHRYSLER">CHRYSLER</option>
+          <option value="DODGE">DODGE</option>
+          <option value="FERRARI">FERRARI</option>
+          <option value="FORD">FORD</option>
+          <option value="GMC">GMC</option>
+          <option value="HONDA">HONDA</option>
+          <option value="HUMMER">HUMMER</option>
+          <option value="HYUNDAI">HYUNDAI</option>
+          <option value="INFINITI">INFINITI</option>
+          <option value="ISUZU">ISUZU</option>
+          <option value="JAGUAR">JAGUAR</option>
+          <option value="JEEP">JEEP</option>
+          <option value="KIA">KIA</option>
+          <option value="LAMBORGHINI">LAMBORGHINI</option>
+          <option value="LAND ROVER">LAND ROVER</option>
+          <option value="LEXUS">LEXUS</option>
+          <option value="LINCOLN">LINCOLN</option>
+          <option value="LOTUS">LOTUS</option>
+          <option value="MASERATI">MASERATI</option>
+          <option value="MAYBACH">MAYBACH</option>
+          <option value="MAZDA">MAZDA</option>
+          <option value="MERCEDES-BENZ">MERCEDES-BENZ</option>
+          <option value="MERCURY">MERCURY</option>
+          <option value="MINI">MINI</option>
+          <option value="MITSUBISHI">MITSUBISHI</option>
+          <option value="NISSAN">NISSAN</option>
+          <option value="PONTIAC">PONTIAC</option>
+          <option value="PORSCHE">PORSCHE</option>
+          <option value="ROLLS-ROYCE">ROLLS-ROYCE</option>
+          <option value="SAAB">SAAB</option>
+          <option value="SATURN">SATURN</option>
+          <option value="SUBARU">SUBARU</option>
+          <option value="SUZUKI">SUZUKI</option>
+          <option value="TOYOTA">TOYOTA</option>
+          <option value="VOLKSWAGEN">VOLKSWAGEN</option>
+          <option value="VOLVO">VOLVO</option>
+        </select>
+        <br>
+        <label for="#2-model">Model</label>
+        <br>
+        <input type="text" id="#2-model" name="#2-Vehicle">
+        <br>
+        <label for="#2-year">Year</label>
+        <br>
+        <input list="#2-10yrs" id="#2-year" name="#2-vehicle">
+        <datalist id="#2-10yrs">
+          <option value="1980">
+          <option value="1981">
+          <option value="1982">
+          <option value="1983">
+          <option value="1984">
+          <option value="1985">
+          <option value="1986">
+          <option value="1987">
+          <option value="1988">
+          <option value="1989">
+          <option value="1990">
+        </datalist>
+        <br>
+        <label for="#2-colorlist">Color</label>
+        <br>
+        <input list="#2-color" id="#2-colorlist" name="#2-vehicle">
+        <datalist id="#1-color">
+          <option value="Black">
+          <option value="Red">
+          <option value="White">
+          <option value="Gray">
+          <option value="Green">
+        </datalist>
+      </div>
+    </section>
+    <button type="submit">Submit Form</button>
+</form>
+</body>
+
+
+
+
+</html>

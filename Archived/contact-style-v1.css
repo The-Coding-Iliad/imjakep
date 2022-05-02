@@ -1,0 +1,183 @@
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * Universal * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Apply styling to all elements (including their `::before` and `::after`
+pseudo-elements). One common use of this selector is to apply a custom
+`box-sizing`. */
+
+* {
+	font-family: Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Root
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+html {
+	font-size: 10px;
+	background-color: honeydew;
+}
+main {
+	background-color: honeydew;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: aquamarine;
+	position: fixed;
+	text-align: justify;
+	top: 0%;
+	z-index: 1;
+	height: 12%;
+}
+
+li {
+	display: inline-block;
+	margin-left: 20%;
+	text-align: justify;
+	font-size: 2.5rem;
+	padding-top: 2.8rem;
+	font-weight: bolder;
+	border-bottom: 1px;
+}
+
+.my-contact-left {
+	height: 100%;
+	width: 20rem;
+	position: fixed;
+	z-index: 1;
+	background-color: aquamarine;
+	top: 0%;
+	left: 0%;
+	overflow-x: hidden;
+	padding-top: 1rem;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.my-contact-right {
+	height: 100%;
+	width: 20rem;
+	position: fixed;
+	z-index: 1;
+	background-color: aquamarine;
+	top: 0%;
+	right: 0%;
+	overflow-x: hidden;
+	padding-top: 1rem;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+p {
+	font-size: 2.5rem;
+	font-weight: bolder;
+	top: 0rem;
+	position: relative;
+}
+
+.project {
+	position: relative;
+	text-align: center;
+	display: inline-flex;
+	font-size: 2rem;
+	width: 35%;
+	align-items: baseline;
+	bottom: 60rem;
+	left: 13.5%;
+}
+
+img {
+	width: 100%;
+	position: relative;
+	margin: 1%;
+	display: flex;
+}
+
+#flamingo {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-flexbox;
+	width: 50%;
+	margin-top: 5%;
+}
+
+.project-1 {
+	font-size: 2rem;
+	font-weight: lighter;
+}
+
+#check {
+	display: block;
+	text-align: left;
+	position: relative;
+	left: 1.2rem;
+	padding-top: 2rem;
+}
+
+#else-text {
+	position: relative;
+	left: 1.2rem;
+}
+
+.project-2 {
+	position: relative;
+	left: 105%;
+}
+
+input[type="text"] {
+	width: 75%;
+	height: 4rem;
+	border-radius: 18px;
+}
+
+input[type="email"] {
+	width: 75%;
+	height: 4rem;
+	border-radius: 18px;
+}
+
+#other {
+	height: 40rem;
+}
+
+#else-text {
+	height: 16rem;
+}
+
+#submit {
+	width: 39%;
+	border-radius: 18px;
+	position: relative;
+	bottom: 8rem;
+	right: 6.5rem;
+	height: 4rem;
+}
+
+::placeholder {
+	text-align: center;
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Forms
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Media queries
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+@media (prefers-reduced-motion: reduce) {
+}
+
+@media (prefers-color-scheme: dark) {
+}
+
+@media (orientation: portrait) {
+}
+
+@media (orientation: landscape) {
+}
+
+@media print {
+}

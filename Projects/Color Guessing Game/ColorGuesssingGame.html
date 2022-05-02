@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Color Guessing Game</title>
+</head>
+
+<body>
+  <header>
+    <h1>Color Guessing Game</h1>
+  </header>
+  <main>
+    <button type="button" onClick="runGame()">Start Game</button>
+
+    <script>
+      const COLORS_ARRAY = [
+        'blue', 'cyan', 'gold', 'gray', 'green', 'magenta', 'orange', 'red', 'white', 'yellow'];
+      COLORS_ARRAY[2] = 'silver';
+      COLORS_ARRAY.sort();
+      //alert(COLORS_ARRAY);
+
+      function runGame() {
+        let guess = '';
+        let correct = false;
+        let numTries = 0;
+
+        let targetIndexA = Math.floor(Math.random() * COLORS_ARRAY.length);
+        let target = COLORS_ARRAY[targetIndexA]
+        alert('target = ' + target);
+        console.log('target = ' + target);
+
+        do {
+          guess = prompt('I am thinking of one of these colors:\n\n' + COLORS_ARRAY.join(' | ') + '\n\nWhat color am I thinking of?');
+          numTries += 1;
+          if (guess === null) {
+            alert('The game was ended by you' + guess)
+            return
+          }
+          correct = checkGuess(guess, target, correct)
+        } while (!correct);
+        alert('Congratulations! You have guessed the color in' + numTries + ' tries')
+        document.body.style.background = guess;
+      }
+
+
+
+      function checkGuess(guess, target, correct) {
+
+        const sorryMsg = 'Sorry your guess is incorrect.\n\n';
+        const tryMsg = '\n\nPlease try again';
+        if (!COLORS_ARRAY.includes(guess)) {
+          alert('Sorry I do not recognize that color' + tryMsg);
+        }
+        else if (guess < target) {
+          alert(sorryMsg + 'Hint your color is alphabetically lower than mine' + tryMsg);
+        }
+        else if (guess > target) {
+          alert(sorryMsg + 'Hint your color is alphabetically higher than mine' + tryMsg);
+        }
+        else { correct = true; }
+        return correct
+      }
+    </script>
+
+
+</body>
+
+</html>

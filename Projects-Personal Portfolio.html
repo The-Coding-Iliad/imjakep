@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--The unique description of the page, for example, displayed on search result pages. It can be any length, but search engines truncate snippets to ~155–160 characters.-->
+  <meta name="description" content="Page description">
+  <!--The unique title of the page. Used by URL scrapers on social media platforms like Twitter or Facebook.-->
+  <meta property="og:title" content="Unique page title - My Site">
+
+
+  <title>Jake did what?</title>
+  <link rel="icon" type="image/xicon" href="resources/Personal Pictures/buster favicon.PNG">
+  <link rel="stylesheet" href="resources/css/projects-style.css">
+</head>
+
+<body onload="checkwidth()" onresize="checkwidth()">
+  <header>
+    <ul class="header">
+       <li class="header">
+        <a href="Home - Personal Portfolio.html" id="about" target="_blank"> <span>About Jake</a></li>
+
+      <li class="header"><a href="Contact-Personal Portfolio.html" id="samples" target="_blank">Contact Me</a></li>
+
+      <li class="header"> <a href="" id="blogs" target="_blank">Blogs</a></li>
+     </ul>
+  </header>
+  <main>
+    <!--The "picture.jpg" file is located in the images folder in the current folder-->
+    <div id="work-list">
+      <p>Simple Games</p>
+      <ul>
+        <a href="" target="_blank">
+        <li>
+          Clairvoyant JavaScript
+          <br>
+          <span>Guess the Color</span>
+          <br>
+          <span>Guess the Number</span>
+          <br>
+          <span>Magic 8 Ball</span>
+        </li>
+      </a>
+
+      <br>
+      
+      <a href="" target="_blank">
+        <li>
+          Frogger Game
+        </li>
+      </a>
+
+      <br>
+       
+      <a href="" target="_blank">
+        <li>
+          Cannabis Decarb App
+        </li>
+      </a>
+      </ul>
+
+      <ul>
+      <p>Working Websites</p>
+        <a href="" target="_blank">
+        <li>
+          Apartment Website
+          <br>
+          <span>Forms</span>
+        </li>
+        </a>
+
+        <br>
+
+        <a href="" target="_blank">
+        <li>
+          CPR Class
+          <br>
+          <span>Scheduling</span>
+         </li>
+      </a>
+
+      <br>
+
+      <a href="" target="_blank">
+      <li>
+        RoadTrip Planner
+        <br>
+        <span>API calls to external Sites</span>
+       </li>
+    </a>
+
+      </ul>
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+
+  <script src="index.js"></script>
+
+  <script>
+    function checkWidth() {
+      if (window.outerWidth <= 650) {
+        document.getElementById("x").innerHTML = "<br>";
+      }
+      else { document.getElementById("x").innerHTML = "" }
+    }
+  </script>
+
+</body>
+
+</html>
