@@ -2,25 +2,25 @@
 Universal
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 * {
-  font-family: Helvetica, Arial, sans-serif;
-  box-sizing: border-box;
+	font-family: Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
 }
 
 :root {
 }
 html {
-  background-color: honeydew;
-  height: 100%;
-  min-height: 100%;
-  width: 100%;
-  min-width: 100%;
-  font-size: 10px;
+	background-color: honeydew;
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
+	min-width: 100%;
+	font-size: 10px;
 }
 body {
-  height: 100%;
-  min-height: 100%;
-  width: 100%;
-  min-width: 100%;
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
+	min-width: 100%;
 }
 
 /*
@@ -39,208 +39,208 @@ change width and height to scale as appropriate
 */
 
 h3 {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 2rem;
-  font-weight: 400;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: 2rem;
+	font-weight: 400;
 }
 h4 {
-  color: darkslateblue;
-  font-size: 2rem;
-  margin-left: 11.5%;
+	color: darkslateblue;
+	font-size: 2rem;
+	margin-left: 11.5%;
 }
 h5 {
-  font-style: italic;
-  font-size: 1.5rem;
-  margin-left: 11.5%;
+	font-style: italic;
+	font-size: 1.5rem;
+	margin-left: 11.5%;
 }
 
-.head{
-    position:relative;
+.head {
+	position: relative;
 }
 #self {
-  max-width: 100%;
-  width: 100%;
-  min-height: auto;
-  min-width: auto;
-  background-size: 100% 100%;
-  z-index: 0;
+	max-width: 100%;
+	width: 100%;
+	min-height: auto;
+	min-width: auto;
+	background-size: 100% 100%;
+	z-index: 0;
 }
 div.intro {
-    font-family: "Fredoka", sans-serif;
-    border: 0.3rem dotted cornflowerblue;
-    border-radius: 2rem;
-    width: 18;
-    min-width: auto;
-    min-height: auto;
-    text-align: center;
-    z-index: 2;
-    left: 75%;
-    top:35%;
-    color: cornflowerblue;
-    position:absolute;
-    font-weight:bolder;
-    background-color: darkgreen;
-  }
+	font-family: "Fredoka", sans-serif;
+	border: 0.3rem dotted cornflowerblue;
+	border-radius: 2rem;
+	width: 18;
+	min-width: auto;
+	min-height: auto;
+	text-align: center;
+	z-index: 2;
+	left: 75%;
+	top: 35%;
+	color: cornflowerblue;
+	position: absolute;
+	font-weight: bolder;
+	background-color: darkgreen;
+}
 p {
-  font-size: 1.5rem;
-  width: 50%;
-  margin-left: 25%;
-  text-align: justify;
+	font-size: 1.5rem;
+	width: 50%;
+	margin-left: 25%;
+	text-align: justify;
 }
 ul {
-  font-size: 1.5rem;
-  margin-left: 25%;
+	font-size: 1.5rem;
+	margin-left: 25%;
 }
 
 ol {
-  font-size: 1.5rem;
-  margin-left: 25%;
+	font-size: 1.5rem;
+	margin-left: 25%;
 }
 
 span {
-  font-size: 1.5rem;
-  margin-left: 11.5%;
+	font-size: 1.5rem;
+	margin-left: 11.5%;
 }
 
 #yr-banner {
-  font-size: 3rem;
-  top: 127.5rem;
-  min-width: auto;
-  width: 100%;
-  height: 10%;
-  font-family: "Mukta", sans-serif;
-  text-align: center;
-  }
+	font-size: 3rem;
+	top: 127.5rem;
+	min-width: auto;
+	width: 100%;
+	height: 10%;
+	font-family: "Mukta", sans-serif;
+	text-align: center;
+}
 .years {
-  font-size: 3rem;
-  text-align: center;
-  z-index: 1;
-  width: 80%;
-  min-width: auto;
-  /*height:6rem;
+	font-size: 3rem;
+	text-align: center;
+	z-index: 1;
+	width: 90%;
+	min-width: auto;
+	/*height:6rem;
     min-height:auto;*/
-  padding: 1rem 0px;
-  background-color: aquamarine;
-  /* margin-bottom: 50px;*/
-  margin-left: 11.5%;
+	padding: 1rem 0px;
+	background-color: aquamarine;
+	/* margin-bottom: 50px;*/
+  margin-left:5%;
 }
 .jobs {
-  font-family: "Noto Serif Display", serif;
-  font-weight: bolder;
-  position: relative;
-  left: 2rem;
-  margin-left: 11.5%;
-  /*  margin-top: 0px;
+	font-family: "Noto Serif Display", serif;
+	font-weight: bolder;
+	position: relative;
+	left: 2rem;
+	/*  margin-top: 0px;
     padding-left: 0px; */
 }
 .title {
-  display: inline-block;
-  position: relative;
-  left:1%;
-}
+	display: inline-flex;
+	position: relative;
+	margin-left: 1.5%;
+ }
 .logos {
-  display: inline-block;
-  margin-left: 11.5%;
-  width: 20rem;
-  height:10%;
-    /*margin-bottom: 0px; */
+	display:inline-flex;
+	margin-left: 11.5%;
+	width: 20rem;
+	height: 10%;
+  vertical-align:top;
+	/*margin-bottom: 0px; */
 }
 
 #mba {
-  display:inline-block;
-  position:relative;
-  left:1%;
+	display: inline-block;
+	position: relative;
+	left: 1%;
 }
 
-#twenty-twenty-two{
-    position:sticky;
-    top:0rem;
+#twenty-twenty-two {
+	position: sticky;
+	top: 0rem;
 }
-#twenty-twenty-one{
-    position:sticky;
-    top:5rem;
+#twenty-twenty-one {
+	position: sticky;
+	top: 5rem;
 }
-#twenty-twenty{
-    position:sticky;
-    top:10rem;
+#twenty-twenty {
+	position: sticky;
+	top: 10rem;
 }
-#twenty-nineteen{
-    position:sticky;
-    top:15rem;
+#twenty-nineteen {
+	position: sticky;
+	top: 15rem;
 }
-#twenty-eighteen{
-    position:sticky;
-    top:20rem;
+#twenty-eighteen {
+	position: sticky;
+	top: 20rem;
 }
-#twenty-seventeen{
-    position:sticky;
-    top:25rem;
+#twenty-seventeen {
+	position: sticky;
+	top: 25rem;
 }
-#twenty-sixteen{
-    position:sticky;
-    top:30rem;
+#twenty-sixteen {
+	position: sticky;
+	top: 30rem;
 }
-#twenty-fifteen{
-    position:sticky;
-    top: 35rem;
+#twenty-fifteen {
+	position: sticky;
+	top: 35rem;
 }
-#twenty-fourteen{
-    position:sticky;
-    top:40rem;
+#twenty-fourteen {
+	position: sticky;
+	top: 40rem;
 }
-#twenty-thirteen{
-    position:sticky;
-    top:45rem;
+#twenty-thirteen {
+	position: sticky;
+	top: 45rem;
 }
-#twenty-twelve{
-    position:sticky;
-    top:50rem;
+#twenty-twelve {
+	position: sticky;
+	top: 50rem;
 }
 
-.div-years{
-    position:sticky;
-    top:0rem;
+.div-years {
+	position: sticky;
+	top: 0rem;
 }
 
 .footer-nav {
-  text-align: center;
-  background-color: rgb(56, 74, 153);
-  width: 80%;
-  left: 11.4%;
-  color: rgb(194, 173, 147);
-  z-index: 2;
-  position: relative;
+	text-align: center;
+	background-color: rgb(56, 74, 153);
+	width: 80%;
+	left: 11.4%;
+	color: rgb(194, 173, 147);
+	z-index: 2;
+	position: relative;
 }
 .footer-nav h3 {
-  position: relative;
-  top: 1.5rem;
-  font-size: 2 rem;
-  font-weight: bolder;
+	position: relative;
+	top: 1.5rem;
+	font-size: 2 rem;
+	font-weight: bolder;
 }
 .link-container {
-  justify-content: space-between;
-  display: inline-block;
-  /*flex-wrap:wrap;*/
-  border-style: dotted;
-  border-color: purple;
-  margin: 0% 3%;
-  width: 15%;
-  align-items: center;
+	justify-content: space-between;
+	display: inline-block;
+	/*flex-wrap:wrap;*/
+	border-style: dotted;
+	border-color: purple;
+	margin: 0% 3%;
+	width: 15%;
+	align-items: center;
 }
 
 .link-container a {
-  font-size: 2rem;
-  font-weight: Bolder;
-  text-align: center;
-  align-items: center;
-  color: rgb(194, 173, 147);
+	font-size: 2rem;
+	font-weight: Bolder;
+	text-align: center;
+	align-items: center;
+	color: rgb(194, 173, 147);
 }
 
 .link-container a.hover {
-  color: aqua;
+	color: aqua;
 }
 
 .link-container span {
-  font-family: "Mukta", sans-serif;
-  text-align: center;
+	font-family: "Mukta", sans-serif;
+	text-align: center;
 }
