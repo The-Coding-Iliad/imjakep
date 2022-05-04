@@ -20,11 +20,13 @@
       href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Merriweather&family=Mukta:wght@200&family=Space+Mono&display=swap"
       rel="stylesheet">
 
-    <title>Hey to Jake!</title>
+    <title>Hey Jake!</title>
 
     <link rel="stylesheet" href="resources/css/contact-style.css">
 
     <link rel="icon" type="image/xicon" href="resources/Personal Pictures/buster favicon.PNG">
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   </head>
 
   <body>
@@ -48,58 +50,82 @@
     </header>
     <main>
       <form>
+
         <section class="contact">
-          <div class="contact-left" id="left-side-nav">
+
+          <div class="contact-left">
+
+            <div class="top-row">
+
             <a href="tel:201-870-1059">
               <img src="resources\Contact Logos\phone logo.png" alt="phone logo" id="phone">
               <br>
               <label for="phone"> +1 (201) 870-1059</label></a>
-<br>
-            <a href="https://calendly.com/jake_p" target="_blank" class="nav-bottom">
-              <img src="resources/Contact Logos/calendly.png" id="calendly" alt="Calendear logo">
-              <label for="calendly" class="nav-bottom-lbl">
+            </div>
+
+            <div class="bottom-row">
+
+            <a href="https://calendly.com/jake_p" target="_blank">
+              <i class="fa-solid fa-calendar"></i>
+              <label>
                 calendly.com/jake_p/</label></a>
-          </div>
+              </div>
+              </div>
 
           <div class="contact-right">
-            <a href="mailto:jremrc2@gmail.com" target="_blank">
-              <img src="resources\Contact Logos\email.png" alt="Email Logo">
-              <label for="email">jremrc2@gmail.com</label></a>
 
-            <br>
+            <div class="top-row">
+
+            <a href="mailto:jremrc2@gmail.com" target="_blank">
+              <i class="fa-solid fa-envelope-open-text"></i>
+              <label for="email">jremrc2@gmail.com</label></a>
+            </div>
+
+            <div class="bottom-row">
+
             <a href="https://www.linkedin.com/in/jakeputnam/" target='_blank' class="nav-bottom">
               <img src="resources\Contact Logos\LI-logo.png" id="lI" alt="LinkedIn Logo">
-              <label for="lI" class="nav-bottom-lbl">
+              <label for="lI">
                 LinkedIn.com/in/jakeputnam
               </label></a>
+              </div>
           </div>
         </section>
 
         <section class="center">
+
           <label for="flamingo" class="center" id="flamingo-lbl">Fill out the form here to get in touch with me</label>
-          <img src="resources/Personal Pictures/flamingos.jpg" alt="flamingos in a pool" class="center" id="flamingo">
+          <img src="resources/Personal Pictures/flamingos.jpg" alt="flamingos in a pool" class="center" id="flamingo" name="flamingo">
           <br>
           <input type="submit" id="submit" class="center">
         </section>
 
 
         <section class="project">
-          <div class="project-1">
-            <label for="name" class="p-label">Hi Jake! My name is:</label>
+
+          <div class="project-left">
+ 
+            <div class="project-top-row">
+ 
+              <label for="name" class="p-label">Hi Jake! My name is:</label>
             <br>
             <input type="text" required placeholder="Put your name here" id="name">
             <br>
-            
+          </div>
+          
+          <div class="project-bottom-row">
+
             <div class="interest">
+
             <label class="p-label">I am interested in:</label>
             <br>
               <input type="checkbox" name="New_Website" id="New_Website" value="New_Website"
               >
-              <label for="New_Website" class="project-1"> Make a New Website</label>
+              <label for="New_Website"> Make a New Website</label>
 
               <br>
               <input type="checkbox" name="Fix_Website" id="Fix_Website" value="Fix_Website">
-              <label for="Fix_Website" class="project-1">Fix a Website</label>
+              <label for="Fix_Website" >Fix a Website</label>
               
               <br>
               <input type="checkbox" name="PM_Services" id="PM_Services" value="PM_Services">
@@ -115,17 +141,24 @@
               <br>
               <input type="text" id="else-text" placeholder="tell me all about it">
             </div>
+            </div>
           </div>
 
           <div class="project-2">
+
+            <div class="project-top-row">
+
             <label for="email"  class="p-label">My email is:</label>
             <br>
             <input type="email" id="email" required placeholder="Put in your email here">
-            <br>
+          </div>
+          
+          <div class="project-bottom-row">
+
                 <label for="other" class="p-label" id="other-label">You should know:</label>
             <br>
             <input type="text" placeholder="uh-huh what else?" id="other">
-          
+          </div>
           </div>
         </section>
       </form>
