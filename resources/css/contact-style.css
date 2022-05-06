@@ -74,6 +74,7 @@ p {
 	margin-top: 160%;
 }
 
+}
 .center {
 	text-align: center;
 	display:block;
@@ -81,8 +82,6 @@ p {
 	width: 55%;
 	margin-left: auto;
 	margin-right: auto;
-	bottom: 42rem;
-	margin-top: 2%;
 }
 .center img {
 	width: 55%;
@@ -90,10 +89,9 @@ p {
 .project{
 	position:relative;
 	display:inline-flexbox;
-	bottom:129.5rem;
+	top:20rem;
 	height:45.5rem;
 }
-
 
 .project-left, .project-right{
 	background-color: blue;

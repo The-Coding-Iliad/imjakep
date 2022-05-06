@@ -44,8 +44,7 @@ label {
 	font-weight: bolder;
 }
 
-.p-label,
-p {
+.p-label, p {
 	font-size: 2rem;
 	font-weight: bolder;
 	}
@@ -53,68 +52,43 @@ p {
 ::placeholder {
 	text-align: center;
 }
+table {
 
-.contact-left,
-.contact-right {
-	background-color: aqua;
-	width: 15%;
-	position: relative;
-	bottom: 5.5rem;
-	display: inline-block;
-	height: 55rem;
+}
+.left, .right{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:18%;
+}
+.center{
+	width:50%;
 	text-align: center;
-	padding: 5% 0%;
-	overflow: hidden;
-}
-.contact-right {
-	float: right;
+	}
+
+.center-left, .center-right{
+width:15%;
+
 }
 
-.bottom-row {
-	margin-top: 160%;
-}
+.bottom-row{
 
-.center {
-	text-align: center;
-	display:block;
-	position: relative;
-	width: 55%;
-	margin-left: auto;
-	margin-right: auto;
-	bottom: 42rem;
-	margin-top: 2%;
 }
-.center img {
-	width: 55%;
+#other{
+	height:47rem;
+	width:96%;
+	}
+#else-text{
+	width:96%;
+	height:36rem;
 }
-.project{
-	position:relative;
-	display:inline-flexbox;
-	bottom:129.5rem;
-	height:45.5rem;
+#flamingo{
+	width:95%;
+	margin:auto;
 }
-
-
-.project-left, .project-right{
-	background-color: blue;
-	width:19%;
-	margin-left:15.5%;
-	height:45.5rem;
-	text-align: center;
+#submit{
+	width:95%;
 }
-.cbox-label{
-	text-align: left;
-}
-.project-right{
-	margin-left:65.5%;
-	position:relative;
-	bottom:45.5rem;
-}
-
-.project-bottom-row{
-	margin-top:30%;
-}
-
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 Forms
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
