@@ -25,7 +25,7 @@ header {
 	width: 100%;
 	overflow: hidden;
 }
-ul {
+ul{
 	list-style: none;
 	display: flex;
 	width: 100%;
@@ -36,7 +36,29 @@ ul {
 li {
 	padding: 2% 3%;
 }
-span {
+
+@media only screen and (min-width:481px) {
+	.nav-mobile, .mobile {display: none;}
+}
+
+@media only screen and (min-width:240px) and (max-width: 480px) {
+	.nav-lbl-desk, .left,.right,.center, .center-left, .center-right {display: none;}
+	table{
+		margin-top:10%;
+	}
+
+	.mobile-banner{
+		text-align: center;
+		
+	}
+	#mobile-banner-1{
+		position:relative;
+		bottom:5rem;
+	}
+	}
+}
+
+span :not(.nav-lbl) {
 	font-size: 1.5rem;
 }
 label {
@@ -44,50 +66,55 @@ label {
 	font-weight: bolder;
 }
 
-.p-label, p {
+.p-label,
+p {
 	font-size: 2rem;
 	font-weight: bolder;
-	}
+}
 
 ::placeholder {
 	text-align: center;
 }
 table {
+	position: relative;
+	width: 100%;
+	bottom: 4rem;
+	overflow: hidden;
+}
 
-}
-.left, .right{
-	text-align:center;
-	margin-left:auto;
-	margin-right:auto;
-	width:18%;
-}
-.center{
-	width:50%;
+.left,
+.right {
 	text-align: center;
-	}
-
-.center-left, .center-right{
-width:15%;
-
+	margin-left: auto;
+	margin-right: auto;
+	background-color: beige;
+}
+.center {
+	width: 35%;
+	text-align: center;
 }
 
-.bottom-row{
-
+.center-left,
+.center-right {
+	width: 20%;
 }
-#other{
-	height:47rem;
-	width:96%;
-	}
-#else-text{
-	width:96%;
-	height:36rem;
+input[type="email"] {
+	width: 96%;
 }
-#flamingo{
-	width:95%;
-	margin:auto;
+input[type="text"] {
+	width: 96%;
 }
-#submit{
-	width:95%;
+#other {
+	height: 47rem;
+}
+#else-text {
+	height: 36rem;
+}
+#flamingo {
+	width: 95%;
+}
+#submit {
+	width: 95%;
 }
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 Forms
