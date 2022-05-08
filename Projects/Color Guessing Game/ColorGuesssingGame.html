@@ -3,16 +3,21 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Color Guessing Game</title>
+  <title>Clairvoyant Games</title>
 </head>
 
 <body>
   <header>
-    <h1>Color Guessing Game</h1>
+   
   </header>
-  <main>
-    <button type="button" onClick="runGame()">Start Game</button>
+   <main>
 
+    <div id="color">
+    <h1>Color Guessing Game</h1>
+    <div class="gif">
+      <img src="https://media.giphy.com/media/EVQWoszCjUwW4/giphy.gif" onClick="runGame()">
+      </div>
+    
     <script>
       const COLORS_ARRAY = [
         'blue', 'cyan', 'gold', 'gray', 'green', 'magenta', 'orange', 'red', 'white', 'yellow'];
@@ -42,9 +47,6 @@
         alert('Congratulations! You have guessed the color in' + numTries + ' tries')
         document.body.style.background = guess;
       }
-
-
-
       function checkGuess(guess, target, correct) {
 
         const sorryMsg = 'Sorry your guess is incorrect.\n\n';
@@ -62,6 +64,9 @@
         return correct
       }
     </script>
+</div>
+
+
 
 
 </body>

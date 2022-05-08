@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--The unique description of the page, for example, displayed on search result pages. It can be any length, but search engines truncate snippets to ~155–160 characters.-->
+  <meta name="description" content="Page description">
+  <!--The unique title of the page. Used by URL scrapers on social media platforms like Twitter or Facebook.-->
+  <meta property="og:title" content="Unique page title - My Site">
+
+
+  <title>Guess this</title>
+  <link rel="icon" type="image/xicon" href="resources/Personal Pictures/buster favicon.PNG">
+  <link rel="stylesheet" href="resources/css/guessing-games.css">
+
+  <script src="https://kit.fontawesome.com/d132723836.js" crossorigin="anonymous"></script>
+</head>
+<header>
+  <!--Desktop Nav-->
+  <ul class="nav-lbl-desk">
+
+    <li>
+      <a href="index.html" id="about" target="_blank">
+        <span class="nav-lbl-desk">About Jake</span></a>
+    </li>
+    
+    <li class="header"><a href="Projects-Personal Portfolio.html" id="samples" target="_blank">Projects</a></li>
+
+    <li>
+      <a href="Contact-Personal Portfolio.html" id="samples" target="_blank"><span
+          class="nav-lbl-desk">Contact Jake</span></a>
+    </li>
+    <li>
+      <a href="" target="_blank"><span class="nav-lbl-desk">Blogs</span></a>
+    </li>
+    
+  </ul>
+  <!--Mobile Nav-->
+  <div class="nav-mobile">
+    <ul>
+      <li> <a href="index.html" id="samples" target="_blank">
+          <i class="fa-solid fa-house fa-2x"></i></a>
+      </li>
+
+      <li>
+        <a href="Projects-Personal Portfolio.html"target="_blank"><i
+            class="fa-solid fa-hammer fa-2x"></i></a>
+      </li>
+      <a href="" target="_blank"><i class="fa-solid fa-wind fa-2x"></i></a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+<body onload="checkwidth()" onresize="checkwidth()">
+    
+  <div id="color">
+        <h1>Color Guessing Game</h1>
+        <div class="gif">
+          <img src="https://media.giphy.com/media/EVQWoszCjUwW4/giphy.gif" onclick="runGameColors()">
+        </div>
+    </div>
+
+    <div id="number">
+      <h1>Number Guessing Game</h1>
+      <div class="gif">
+      <img src="https://media.giphy.com/media/RlMbFAgV77XvID6wXV/giphy.gif" onclick="runGameNumbers()">
+    </div>
+    </div>
+
+    <div class="8ball">
+      <h1>Magic 8 Ball</h1>
+      <div class="gif">
+        <img src="https://media.giphy.com/media/efahzan109oWdMRKnH/giphy.gif" onclick="runGame8Ball()">
+      </div>
+    </div>
+
+    <div class="center">
+      <div class="gif" id="fractal">
+        <img src="https://media.giphy.com/media/ZBwV386gAnZGmtEhJs/giphy-downsized-large.gif">
+      </div>
+
+    </div>
+
+
+</main>
+<footer>
+
+</footer>
+
+<script src="resources/js/guessing-games.jss"></script>
+
+<script>
+  function checkWidth() {
+    if (window.outerWidth <= 650) {
+      document.getElementById("x").innerHTML = "<br>";
+    }
+    else { document.getElementById("x").innerHTML = "" }
+  }
+</script>
+
+</body>
+
+</html>
