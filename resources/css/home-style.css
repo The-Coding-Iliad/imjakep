@@ -32,11 +32,7 @@ h2 {
   background-color: coral;
 }
 */
-/* NOTE TO JAKE ! 
-Change all FONT Pixels to REM
-Chane all position pixels to %
-change width and height to scale as appropriate
-*/
+
 
 h3 {
 	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -244,3 +240,5 @@ span {
 	font-family: "Mukta", sans-serif;
 	text-align: center;
 }
+
+/*Playing with Transitions*/
