@@ -33,7 +33,6 @@ h2 {
 }
 */
 
-
 h3 {
 	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 	font-size: 2rem;
@@ -118,7 +117,7 @@ span {
 	padding: 1rem 0px;
 	background-color: aquamarine;
 	/* margin-bottom: 50px;*/
-  margin-left:5%;
+	margin-left: 5%;
 }
 .jobs {
 	font-family: "Noto Serif Display", serif;
@@ -132,13 +131,13 @@ span {
 	display: inline-flex;
 	position: relative;
 	margin-left: 1.5%;
- }
+}
 .logos {
-	display:inline-flex;
+	display: inline-flex;
 	margin-left: 11.5%;
 	width: 20rem;
 	height: 10%;
-  vertical-align:top;
+	vertical-align: top;
 	/*margin-bottom: 0px; */
 }
 

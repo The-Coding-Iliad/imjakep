@@ -1,0 +1,276 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Universal
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body,
+html {
+	height: 100%;
+	background-color: #eeedf3;
+	font: 10px;
+}
+
+/** Font Styling **/
+h1,
+h2,
+h3,
+h4 {
+	font-family: "Lato", "Courier New", monospace, sans-serif;
+	font-size: 3.5rem;
+	color: #1f1f1f;
+}
+p,
+span,
+a,
+li,
+button,
+label {
+	font-family: "Roboto Slab", Garamond, serif;
+	font-size: 1.8rem;
+}
+
+.subtext {
+	font-family: "Crimson Pro", verdana, serif;
+	font-size: 1rem;
+	color: #1f1f1f;
+}
+
+/** LINK STYLING & Interactivity **/
+a {
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+a:hover {
+	color: darkblue;
+	text-transform: uppercase;
+}
+
+a:visited {
+	color: #466995;
+}
+
+/** Top Nav Styling v2 **/
+nav {
+	background: #eeedf3;
+	height: 10%;
+	min-width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+.sbs_logo_green {
+	padding: 0 2%;
+	max-height: 70%;
+	margin-top: 1.5%;
+}
+
+nav ul {
+	float: right;
+	margin-right: 2%;
+	line-height: 100%;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 100%;
+	margin: 5% 1.25rem;
+}
+
+nav ul li a {
+	line-height: 100%;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 1.5rem;
+	border-radius: 0.3rem;
+}
+
+a:active,
+a:hover {
+	text-transform: uppercase;
+	transition: 0.5s ease;
+	border-radius: 0.3rem;
+	background-color: #005c46;
+	color: #eeedf3;
+}
+/**FONT AWESOME BARS**/
+
+#bars {
+	font-size: 3rem;
+	color: black;
+	line-height: 6rem;
+	cursor: pointer;
+	float: right;
+	margin-right: 4rem;
+	height: 100%;
+}
+#check {
+	cursor: crosshair;
+	border: red 8px solid;
+}
+/** NAV BAR RESPONSIVE DESIGN 
+https://www.codecademy.com/paths/learn-how-to-build-websites/tracks/responsive-design-and-accessibility/modules/learn-responsive-design-module/lessons/sizing-elements/exercises/relative-measurements **/
+
+@media only screen and (max-width: 768px) {
+	#bars {
+		display: block;
+		color: #005c46;
+	}
+	#bars:hover {
+		background-color: #005c46;
+		color: #eeedf3;
+	}
+	.nav_links li {
+		display: none;
+	}
+	/** Pick UP HERE - Trying to set behavbior on checkbox being checked**/
+	input:checked {
+	}
+}
+
+/**
+@media (max-width: 720px) {
+	.bars {
+		display: block;
+	}
+	ul {
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		top: 80px;
+		left: 0;
+		text-align: center;
+		background-color: #eeedf3;
+		color: #1f1f1f;
+	}
+	nav ul li {
+		display: block;
+	}
+	nav ul li a {
+		font-size: 2rem;
+	}
+
+	a:hover,
+	a:active {
+		background: none;
+		color: #1f1f1f;
+	}
+}
+**/
+
+/** Banner Styling REBUILD TO USE CSS GRID!!
+https://www.codecademy.com/courses/learn-intermediate-css/lessons/learn-flexbox/exercises/review-flexbox
+https://moderncss.dev/3-popular-website-heroes-created-with-css-grid-layout/
+!**/
+.hero_banner {
+	position: relative;
+	top: 12%;
+	height: 65%;
+	display: flex;
+}
+.hero_table {
+	height: 80%;
+	background-color: #005c46;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.hero_table h1 {
+	font-size: 2.5rem;
+	color: #eeedf3;
+	text-align: center;
+}
+.hero_table p,
+label {
+	font-size: 1.5rem;
+	color: #509c84;
+	padding-top: 20%;
+}
+
+.sbs_text {
+	font-size: 1.65rem;
+	font-weight: bolder;
+	font-family: "Lato", "Courier New", monospace, sans-serif;
+	color: #dcc6e0;
+}
+
+.hero_left {
+	width: 25%;
+	padding: 0 20px;
+	border-radius: 25px;
+}
+.hero_right {
+	width: 25%;
+	padding: 0 20px;
+	text-align: left;
+}
+
+.hero_image {
+	width: 50%;
+}
+.hero_image img {
+	border-radius: 75px;
+	margin: 0 auto;
+	width: 100%;
+	min-height: 100%;
+	border-right: solid 3px #dcc6e0;
+	border-left: solid 3px #dcc6e0;
+}
+
+/** BANNER FORM STYLING **/
+
+.hero_right form {
+	position: relative;
+	bottom: 20%;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+input[type="email"] {
+	width: 80%;
+	height: 2rem;
+	border-radius: 5px;
+	padding: 20px 0;
+	margin: 0 auto;
+	cursor: pointer;
+	text-align: center;
+}
+
+.checkboxes {
+	display: flex;
+	align-items: center;
+	font-size: 1.2rem;
+	padding-top: 5px;
+}
+input[type="checkbox"] {
+	cursor: pointer;
+}
+
+input[type="submit"] {
+	width: 30%;
+	padding: 0;
+	font-size: large;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+	border: orange 3px solid;
+}
+
+input[type="email"]:hover {
+	border: orange 3px solid;
+}
+
+input[type="checkbox"]:hover {
+	border: orange 8px solid;
+}
